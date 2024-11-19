@@ -8,3 +8,10 @@ Redirector for HPP written in Rust and C
 3 Compile and run the program:
 4
 Test the redirects by navigating to http://localhost:3030/google or http://localhost:3030/rust.
+
+To check logs:
+Run the script using cargo run.
+
+Navigate to http://127.0.0.1:3030/redirect?url=<your-target-url> to test the redirect functionality.
+
+View the logs in your console to see details about the application's behavior 
